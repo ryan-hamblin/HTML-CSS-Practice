@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+body {
+	color: #FFF;
+	font-family: 'Oswald', san-sarif;
+	margin: 0;
+	font-size: 45px;
+}
+h1 {
+	color: #E52B50;
+	margin-left: 16px;
+	font-size: 5vw;
+}
+div {
+	box-sizing: border-box;
+	white-space: nowrap;
+	float: left;
+	width: 16.666%;
+	height: 150px;
+	padding: 14px;
+	box-shadow: inset 0 0 0 7px rgba(255,255,255,0.2) ;
+	overflow: hidden;
+}
+@media (max-width: 1100px) {div {width: 20%;}}
+@media (max-width: 900px) {div {width: 25%;} h1{font-size: 1.5em;}}
+@media (max-width: 740px) {div {width: 33.33%;}}
+@media (max-width: 540px) {div {width: 50%;}}
+@media (max-width: 440px) {div {width: 100%;} h1{display: none;}}
+
+div:nth-child(2) {background: #FEC30B;}
+div:nth-child(3) {background: #FADFAE;}
+div:nth-child(4) {background: #EC4908;}
+div:nth-child(5) {background: #009874;}
+div:nth-child(6) {background: #FFC40C;}
+div:nth-child(7) {background: #6082B6;}
+div:nth-child(8) {background: #645452;}
+div:nth-child(9) {background: #E48400;}
+div:nth-child(10) {background: #738678;}
+div:nth-child(11) {background: #801818;}
+div:nth-child(12) {background: #F5F0E6;}
+div:nth-child(12) {background: #E52B50;}
