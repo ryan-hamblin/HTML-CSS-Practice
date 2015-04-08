@@ -1,0 +1,32 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.main-container {
+	border: 2px solid white;
+}
+.left {
+	height: 100%;
+	width: 33.33%;
+	background: #4A90E2;
+	float: left;
+}
+.middle {
+	height: 100%;
+	width: 33.33%;
+	background: #50E3C2;
+	float: left;
+}
+.right {
+	height: 75%;
+	width: 33.33%;
+	background: #adeda6;
+	float: left;
+}
+.bottom {
+	height: 25%;
+	width: 33.333%;
+	float: left;
+	background-image: url(http://img4.wikia.nocookie.net/__cb20100424033209/adventuretimewithfinnandjake/images/archive/1/16/20100424034915!Finn.PNG) ;
+}
