@@ -27,9 +27,12 @@ html, body {
 }
 .text_box {
   height: 21%;
-  margin: 2% 6%;
+  width: 100%;
+  margin: 0;
   font-family: Helvetica;
   font-size: 1.25em;
+  background: white;
+
 }
 .box {
   height: 15%;
