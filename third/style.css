@@ -1,7 +1,14 @@
 html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background: #dddddd;
+}
+.main-container {
   height: 90%;
+  border-radius: 5px;
   width: 80%;
-  margin: 0;
+  margin: 40px 100px;
   border: 2px solid white;
 }
 .top {
